@@ -1,0 +1,33 @@
+html {
+  font-family: "Cormorant Garamond", serif;
+}
+
+h1,
+h2 {
+  font-family: "Delius Unicase", sans-serif;
+}
+
+h2 {
+  color: #CC0000;
+}
+
+.masthead,
+.footer {
+  background-color: #CC0000;
+  color: #fff;
+}
+
+.nav a {
+  border-bottom: .1em solid currentColor;
+  color: #fff;
+  text-decoration: none;
+}
+
+.logo {
+  width: 64px;
+}
+
+.banner-content {
+  color: #fff;
+  text-shadow: .1em .1em .3em rgba(0, 0, 0, .6);
+}

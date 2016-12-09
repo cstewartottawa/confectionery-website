@@ -1,6 +1,8 @@
 html {
   font-family: "Open Sans", sans-serif;
   font-weight: lighter;
+  background-color: #283747;
+  color: #fff;
 }
 
 h1,
@@ -9,7 +11,7 @@ h2 {
 }
 
 h2 {
-  color: #283747  ;
+  color: #ff3366;
 }
 
 .masthead,

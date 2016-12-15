@@ -36,3 +36,11 @@ h2 {
   text-shadow: .05em .05em .15em rgba(0, 0, 0, .6);
   text-align: right;
 }
+
+.nav a {
+  background-color: #283747;
+}
+
+.nav a:hover {
+  background-color: #d5d8dc;
+}

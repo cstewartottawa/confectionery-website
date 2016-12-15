@@ -11,17 +11,17 @@ h2 {
 }
 
 h2 {
-  color: #ff3366;
+  color: #f36;
 }
 
 .masthead,
 .footer {
   background-color: #283747  ;
-  color: #D5D8DC;
+  color: #d5d8dc;
 }
 
 .nav a {
-  border-bottom: .08em solid #ff3366;
+  border-bottom: .08em solid #f36;
   color: #fff;
   text-decoration: none;
 

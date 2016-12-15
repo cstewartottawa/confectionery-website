@@ -7,7 +7,7 @@ html {
 
 h1,
 h2 {
-  font-family: 'Playfair Display', serif;
+  font-family: "Playfair Display", serif;
 }
 
 h2 {
@@ -16,7 +16,7 @@ h2 {
 
 .masthead,
 .footer {
-  background-color: #283747  ;
+  background-color: #283747;
   color: #d5d8dc;
 }
 

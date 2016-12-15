@@ -12,12 +12,17 @@
 </head>
 <body>
 
-  <header class="masthead text-center island-1-2">
+  <ul class="skip-links">
+    <li><a href="#main">Jump to main content</a></li>
+    <li><a href="#nav">Jump to navigation</a></li>
+  </ul>
+
+  <header role="banner" class="masthead text-center island-1-2">
     <div class="push-1-2">
       <img class="logo valign-middle" src="images/cupcake.svg" alt="">
       <h1 class="ib valign-middle push-0 yotta">Beau's Bonbons</h1>
     </div>
-    <nav>
+    <nav class="nav" role="navigation" id="nav">
       <ol class="nav list-group-inline push-0 giga">
         <li class="gutter-1-2"><a class="block pad-t-1-8 pad-b-1-8" href="#all-types">About Us</a></li>
         <li class="gutter-1-2"><a class="block pad-t-1-8 pad-b-1-8" href="#types">Types of Candy</a></li>
@@ -26,7 +31,7 @@
     </nav>
   </header>
 
-  <main>
+  <main class="main" role="main" id="main">
     <div class="banner relative push">
       <div class="embed embed-3by2">
         <img class="img-flex" src="images/chocolate-popcorn.jpg" alt="">
@@ -35,10 +40,13 @@
         <p class="zetta bold">Best Candy In Town!</p>
       </div>
     </div>
-    <div class="gutter-1-2 max-length">
-      <h2 id="all-types">About Us</h2>
-      <p>We are a multidicsiplinary candy shop that offers a wide range of candy supplies from sugar to chocloate to bubble gum and sugar cookies.</p>
-    </div>
+
+    <section id="about">
+      <div class="gutter-1-2 max-length">
+        <h2 id="all-types">About Us</h2>
+        <p>We are a multidicsiplinary candy shop that offers a wide range of candy supplies from sugar to chocloate to bubble gum and sugar cookies.</p>
+      </div>
+    </section>
 
     <div class="embed embed-3by2 push">
       <img class="img-flex" src="images/strawberry-cake.jpg" alt="">
@@ -68,7 +76,6 @@
         </div>
       </div>
     </div>
-
     <div class="gutter-1-2 max-length">
       <h2 id="vs-slugs">Process</h2>
       <p>We make all of our candy in house. This guarantees freshness and it will taste very good. We have a unique way of makking the candy.</p>
@@ -77,14 +84,14 @@
       <div class="wrapper">
         <h2 class="push-0 color-brand-dark gutter-1-2">Contact</h2>
         <p class="mega max-length gutter-1-2">Order Your Favourtie Candy Now!</p>
-        <form class="grid" method="post">
+        <form class="grid" method="post" action="https://formspree.io/">
           <div class="unit [ xs-1 s-1 m-1-2 l-1-3 ] push gutter-1-2">
             <label class="push-1-8" for="name">Your name</label>
-            <input id="name">
+            <input id="name" placeholder="John Doe" name="name">
           </div>
           <div class="unit [ xs-1 s-1 m-1-2 l-1-3 ] push gutter-1-2">
             <label class="push-1-8" for="email">E-mail address</label>
-            <input id="email" type="email">
+            <input id="email" placeholder="john.doe@gmail.com" type="email">
           </div>
           <div class="unit [ xs-1 s-1 m-1-2 l-1-3 ] push gutter-1-2">
             <label class="push-1-8" for="type">Type of Candy</label>
@@ -103,7 +110,7 @@
     </div>
   </main>
 
-  <footer class="footer">
+  <footer role="contentinfo" class="footer">
     <div class="max-length island-1-2">
       <small class="block push-1-2">© Beau's Bon Bons</small>
       <nav>

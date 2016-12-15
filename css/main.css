@@ -24,6 +24,7 @@ h2 {
   border-bottom: .08em solid #f36;
   color: #fff;
   text-decoration: none;
+  background-color: #283747;
 
 }
 
@@ -37,10 +38,12 @@ h2 {
   text-align: right;
 }
 
-.nav a {
-  background-color: #283747;
-}
-
 .nav a:hover {
   background-color: #d5d8dc;
+}
+
+body {
+  background-image: url("../images/cupcake-2.svg");
+  background-size: 70px;
+
 }
